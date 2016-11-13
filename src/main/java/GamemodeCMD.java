@@ -32,6 +32,12 @@ public class GamemodeCMD implements CommandExecutor {
                 player.sendMessage(Text.of(TextColors.GOLD, "Changed your Gamemode to ", TextColors.RED ,"Creative", TextColors.GOLD ,"!"));
                 return CommandResult.success();
             }
+            if (player.gameMode().get().equals(GameModes.SPECTATOR))
+            {
+                player.offer(player.gameMode().set(GameModes.CREATIVE));
+                player.sendMessage(Text.of(TextColors.GOLD, "Changed your Gamemode to ", TextColors.RED ,"Creative", TextColors.GOLD ,"!"));
+                return CommandResult.success();
+            }
             return CommandResult.success();
 
         } else {
