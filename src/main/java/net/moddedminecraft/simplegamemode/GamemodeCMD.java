@@ -1,3 +1,5 @@
+package net.moddedminecraft.simplegamemode;
+
 import org.spongepowered.api.command.CommandException;
 import org.spongepowered.api.command.CommandResult;
 import org.spongepowered.api.command.CommandSource;
