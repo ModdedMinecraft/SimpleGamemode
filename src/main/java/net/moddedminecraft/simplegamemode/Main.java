@@ -10,11 +10,14 @@ import org.spongepowered.api.event.game.state.GameStartedServerEvent;
 import org.spongepowered.api.plugin.Plugin;
 import org.spongepowered.api.text.Text;
 
-@Plugin(id = "simplegamemode", name = "SimpleGamemode", version = "1.0")
+@Plugin(id = "simplegamemode", name = "SimpleGamemode", version = "1.1")
 public class Main {
 
     @Inject
     public Logger logger;
+
+    @Inject
+    private Metrics metrics;
 
     private CommandManager cmdManager = Sponge.getCommandManager();
 
