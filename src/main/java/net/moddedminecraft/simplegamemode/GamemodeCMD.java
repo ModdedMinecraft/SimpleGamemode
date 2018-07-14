@@ -62,7 +62,7 @@ public class GamemodeCMD implements CommandExecutor {
                 } else {
                     switch (gmode) {
                         case "s":
-                            player.offer(player.gameMode().set(GameModes.SURVIVAL));
+                            player.offer(player.gameMode().set(GameModes.CREATIVE));
                             player.sendMessage(plugin.fromLegacy("&6Changed Gamemode to &4Survival&6!"));
                             break;
                         case "c":
