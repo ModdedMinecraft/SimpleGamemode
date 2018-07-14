@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.moddedminecraft</groupId>
     <artifactId>SimpleGamemode</artifactId>
-    <version>1.0</version>
+    <version>1.2</version>
     <name>SimpleGamemode</name>
     <description>
         Simple and quick way to change gamemodes just like before Adventure mode was released.

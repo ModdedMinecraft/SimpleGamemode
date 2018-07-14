@@ -15,7 +15,7 @@ import org.spongepowered.api.text.serializer.TextSerializers;
 import java.util.HashMap;
 import java.util.Map;
 
-@Plugin(id = "simplegamemode", name = "SimpleGamemode", version = "1.1")
+@Plugin(id = "simplegamemode", name = "SimpleGamemode", version = "1.2")
 public class Main {
 
     @Inject
